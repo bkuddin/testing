@@ -1,9 +1,27 @@
 body {
   font-family: "Roboto", sans-serif;
+  margin: 0%;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1rem;
+}
+
+.flexible-section {
+  display: flex;
 }
 
 .head-section {
-  display: flex;
+  background-image: url(images/trans-bg.gif);
+  background-size: cover;
 }
 
 .half-width {
@@ -11,13 +29,18 @@ body {
   padding-left: 8%;
 }
 
+.first-half {
+  margin-top: 20rem;
+  margin-bottom: 20rem;
+}
+
 .half-width h1 {
   font-size: 3rem;
 }
 
-.half-width p {
+/* .half-width p {
   font-size: 30px;
-}
+} */
 
 .colorful {
   color: rgb(238, 60, 6);
@@ -34,4 +57,45 @@ body {
 
 .half-width img {
   width: 80%;
+}
+
+.second-section {
+  background-image: url(images/trans-bg-2.gif);
+  background-size: cover;
+  padding-bottom: 150px;
+}
+
+.experience-section {
+  background-image: url(images/trans-bg-3.gif);
+  background-size: cover;
+  padding-bottom: 10px;
+}
+
+.experience-item {
+  width: 50%;
+  box-shadow: 2px 0px 50px 33px rgba(0, 0, 0, 0.1);
+  padding: 2%;
+  border-radius: 2%;
+}
+
+.experience-item h3 {
+  color: orange;
+}
+.experience-item-1 {
+  margin-left: 5%;
+  margin-right: 2.5%;
+  border-left: 10px solid;
+  border-image: linear-gradient(rgb(255, 136, 0), rgb(255, 174, 0));
+  border-image-slice: 1;
+}
+.experience-item-2 {
+  margin-right: 5%;
+  margin-left: 2.5%;
+  border-left: 10px solid;
+  border-image: linear-gradient(rgb(0, 81, 255), rgb(0, 255, 200));
+  border-image-slice: 1;
+}
+
+.right-padding {
+  padding-right: 8%;
 }
